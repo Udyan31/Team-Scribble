@@ -2,8 +2,6 @@
 
 A real-time collaborative whiteboard built with Node.js, Express, and Socket.IO. Multiple people can join a shared canvas, draw together, chat, and organize ideas across multiple pages — all synced live.
 
-**Live Demo:** https://teamscribble.onrender.com/
-
 ---
 
 ## ✨ Key Features
@@ -72,9 +70,3 @@ Read this before treating TeamScribble as more than a demo/portfolio project:
 - Scaling beyond a single server process would need a shared store (e.g. Redis) for Socket.IO room state, since everything currently lives in one process's memory.
 
 Contributions and issues are welcome if you'd like to help tackle any of the above.
-
----
-
-## License
-
-MIT — see [LICENSE](LICENSE).
